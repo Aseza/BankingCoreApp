@@ -8,4 +8,13 @@ The app was created in the timeslot of approxiamtely 1h45min, the rest was just 
 For any other issue contact on AbdelilahOuchani3245@gmail.com
 
 
-PS: Apparently I omitted the method that shows the Transaction regardless of the condition(direction, date), sorry about that :).
+PS: Apparently I omitted the method that shows the Transaction regardless of the condition(direction, date), sorry about that :)
+Could be something like this :
+
+public void showAllTransactions() {
+		for (Transaction transaction : transactions) {
+	System.out.println("Transaction of amount "+ transaction.getAmount()+" and balance was+" transaction.getCurrentBalance());
+		}
+	}
+  
+  Sorry again :).
